@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YuroBank</title>
+    <link rel="icon" type="image/png" href="logo do yurobank.png" />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+<video
+  autoplay
+  muted
+  loop
+  playsinline
+  preload="metadata"
+  id="video-fundo"
+>
+  <source
+    src="assets/videos/video de fundo da floresta.mp4"
+    type="video/mp4"
+  >
+</video>
+
+<div class="overlay-fundo"></div>
+
+    <header>
+      <div class="logo-container">
+        <div class="gato-yuro">
+  <video autoplay muted loop playsinline>
+    <source src="assets/videos/gato-yuro.webm" type="video/webm">
+  </video>
+</div>
+        <img src="assets/images/logo do yurobank.png" alt="YuroBank Logo" class="logo" />
+        <h1 class="titulo-banco">YuroBank</h1>
+      </div>
+    </header>
+    <main>                     <!-----------   SALDO  ---------------->
+      <div class="linha-topo">
+        <div class="lado-esquerdo"></div>
+        <div class="saldo">
+        <p class="saldo-label">Saldo disponível</p>
+        <div class="saldo-container">
+        <p class="saldo-valor">R$ 1.250,75</p>
+        <button id="toggle-saldo"> 
+          👁️
+         </button>
+         </div>
+       <p class="limite-label">Limite disponível</p>
+      <p class="limite-valor">R$ 0,00</p>
+</div>                                                               
+      </div>      
+        <div class="caixinhas-container">
+
+  <h3>🐾 CaixinhasYu</h3>
+
+  <div id="lista-caixinhas">
+
+  </div>
+
+</div>                              <!-- ATALHOS -->
+                                    <!-- ICONE PIX -->
+      <section class="atalhos">
+        <div class="atalho"> 
+          <img src="assets/icons/Iconepix.png" alt="Pix" class="icone-atalho" />
+          <span class="texto-atalho">Pix e Transferir</span>
+        </div> 
+        <div class="atalho">   <!-- ICONE PAGAR -->
+          <img src="assets/icons/Simbolo boleto pagar.png" alt="Pagar" class="icone-pagar" />
+          <span class="texto-atalho">Pagar</span>
+        </div>
+        <div class="atalho">    <!-- ICONE DEPOSITAR -->
+  <img src="assets/icons/Deposito.png" alt="Depositar" class="icone-deposito" />
+  <span class="texto-atalho">Depositar</span>
+</div>
+        <div class="atalho">  <!-- ICONE Extrato -->
+          <img src="assets/icons/extrato icone.png" alt="extrato" class="icone-extrato" />
+          <span class="texto-atalho">Extrato</span>
+        </div>
+        <div class="atalho">     <!-- ICONE CONVERSOR DE LIMTES -->
+          <img
+            src="assets/icons/converrter limite icone.png"
+            alt="limite"
+            class="icone-limite"
+          />
+          <span class="texto-atalho">Converter Limite</span>
+        </div>
+        <div class="atalho">   <!-- ICONE CARTAO VIRTUAL -->
+          <img
+            src="assets/icons/cartao virtual icone.png"
+            alt="cartao virtual"
+            class="cartao-virtual"
+          />
+          <span class="texto-atalho">Cartão Virtual</span>
+        </div>
+        <div class="atalho"id="btn-caixinhas">
+         <img src="assets/icons/investimento.png" alt="investir" class="cartao-investimento"/>
+        <span class="texto-atalho"> CaixinhasYu </span>
+        </div>
+      <div class="atalho" id="btn-yuhelp">  <!-- ICONE YUHELP -->
+
+  <img
+    src="assets/icons/icone help.png"  
+    alt="ajuda"
+  >
+
+  <span class="texto-atalho">
+    YuHelp
+  </span>
+
+</div>
+
+<div class="atalho" id="btn-reset">
+
+  <img
+    src="assets/icons/reset.png"
+    alt="Resetar"
+  >
+
+  <span class="texto-atalho">
+    Resetar Conta
+  </span>
+  </div>
+      </section>
+         <div id="extrato-box" class="extrato-box">
+
+         <h3>📋 Extrato YuroBank</h3>
+
+         <div id="lista-extrato">
+
+         </div>
+
+        </div>
+
+        <div class="atalho" id="btn-sair">
+
+<img
+src="assets/icons/icone sair.png"
+alt="Sair">
+
+<span class="texto-atalho">
+Sair
+</span>
+
+</div>
+
+  <section class="cartoes">
+  <!-- YURO START -->
+  <div class="cartao-item">
+    <div class="cartao-imagem-wrapper">
+      <img src="assets/images/YUROSTART.png" alt="Cartão Yuro Start" class="cartao-imagem-start">
+    </div>
+    <div class="cartao yuro-start">
+      <h3>Yuro Start</h3>
+      <p>Para quem começou</p>
+    </div>
+    <div class="beneficios-expansiveis">
+      <p class="beneficio-texto"></p>
+    </div>
+  </div>
+
+  <!-- YURO PURPLE -->
+  <div class="cartao-item">
+    <div class="cartao-imagem-wrapper">
+      <img src="assets/images/YUROPURPLE.png" alt="Cartão Yuro Purple" class="cartao-imagem-yuropurple">
+    </div>
+    <div class="cartao yuro-purple">
+      <h3>Yuro Purple</h3>
+      <p>Para quem fica</p>
+    </div>
+    <div class="beneficios-expansiveis">
+      <p class="beneficio-texto"></p>
+    </div>
+  </div>
+
+  <!-- YURO INVEST -->
+  <div class="cartao-item">
+    <div class="cartao-imagem-wrapper">
+      <img src="assets/images/YUROINVEST.png" alt="Cartão Yuro Invest" class="cartao-imagem-yuroinvest">
+    </div>
+    <div class="cartao yuro-invest">
+      <h3>Yuro Invest</h3>
+      <p>Para quem investe</p>
+    </div>
+    <div class="beneficios-expansiveis">
+      <p class="beneficio-texto"></p>
+    </div>
+  </div>
+
+  <!-- YURO BLACK -->
+  <div class="cartao-item">
+    <div class="cartao-imagem-wrapper">
+      <img src="assets/images/YUROBLACK.png" alt="Cartão Yuro Black" class="cartao-imagem-yuroblack">
+    </div>
+    <div class="cartao yuro-black">
+      <h3>Yuro Black</h3>
+      <p>Exclusivo</p>
+    </div>
+    <div class="beneficios-expansiveis">
+      <p class="beneficio-texto"></p>
+    </div>
+  </div>
+</section>
+    </main>
+       <!-- MODAL (fora do main, antes do footer) -->
+    <div id="modal-beneficios" class="modal">
+      <div class="modal-conteudo">
+        <span class="fechar-modal">&times;</span>
+        <h3>Benefícios do Cartão</h3>
+        <p id="beneficio-texto"></p>
+      </div>
+    </div>
+<div id="cartao-virtual-box" class="cartao-virtual-box">
+
+  <h3>💳 Yuro Virtual</h3>
+
+  <p id="numero-cartao"></p>
+
+  <div class="dados-cartao">
+    <p id="validade-cartao"></p>
+    <p id="cvv-cartao"></p>
+  </div>
+</div>
+<div id="modal-deposito" class="modal-deposito">
+  
+  <div class="conteudo-deposito">
+
+    <h3>💰 Depositar</h3>
+
+    <input
+      type="number"
+      id="valor-deposito"
+      placeholder="Digite o valor"
+    >
+
+    <div class="botoes-deposito">
+
+      <button id="confirmar-deposito">
+        Confirmar
+      </button>
+
+      <button id="cancelar-deposito">
+        Cancelar
+      </button>
+
+    </div>
+    <p id="mensagem-deposito"></p>
+    
+
+</div>
+
+</div>
+
+<div id="modal-reset" class="modal-deposito">
+
+  <div class="conteudo-deposito">
+
+    <h3>⚠️ Resetar Conta</h3>
+
+    <p style="margin-bottom:20px;">
+      Deseja realmente apagar todos os dados?
+    </p>
+
+    <div class="botoes-deposito">
+
+     <button
+  id="confirmar-reset"
+  class="btn-reset">
+  Sim
+</button>
+
+<button
+  id="cancelar-reset"
+  class="btn-cancelar">
+  Não
+</button>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div id="modal-limite" class="modal-deposito">
+
+  <div class="conteudo-deposito">
+
+    <h3>💜 Converter Limite</h3>
+
+    <input
+      type="number"
+      id="valor-limite"
+      placeholder="Digite o valor"
+    >
+
+    <div class="botoes-deposito">
+
+      <button id="confirmar-limite">
+        Converter
+      </button>
+
+      <button id="cancelar-limite">
+        Cancelar
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div id="modal-caixinha" class="modal-deposito">
+
+  <div class="conteudo-deposito">
+
+    <h3>💰 Guardar dinheiro</h3>
+
+    <input
+      type="number"
+      id="valor-caixinha"
+      placeholder="Digite o valor"
+    >
+
+    <div class="botoes-deposito">
+
+      <button id="confirmar-caixinha">
+        Guardar
+      </button>
+
+      <button id="cancelar-caixinha">
+        Cancelar
+      </button>
+
+    </div>
+    
+     
+  </div>
+
+</div>
+
+<div id="modal-retirar" class="modal-deposito">
+
+  <div class="conteudo-deposito">
+
+    <h3>💸 Retirar dinheiro</h3>
+
+    <input
+      type="number"
+      id="valor-retirada"
+      placeholder="Digite o valor"
+    >
+
+    <div class="botoes-deposito">
+
+      <button id="confirmar-retirada">
+        Retirar
+      </button>
+
+      <button id="cancelar-retirada">
+        Cancelar
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div id="modal-yuhelp"  class="modal-yuhelp">
+
+  <div class="conteudo-yuhelp">
+
+    <h3>
+      🤖 YuHelp
+    </h3>
+
+    <div class="perguntas-yuhelp">
+
+      <button onclick="yuHelp('gastar')">
+        💰 Quanto posso gastar hoje?
+      </button>
+
+      <button onclick="yuHelp('limite')">
+        💳 Como funciona o limite?
+      </button>
+
+      <button onclick="yuHelp('caixinha')">
+        📦 O que são as CaixinhasYu?
+      </button>
+
+      <button onclick="yuHelp('reserva')">
+        🏦 Como criar uma reserva?
+      </button>
+
+      <button onclick="yuHelp('guardar')">
+        📈 Como guardar mais dinheiro?
+      </button>
+
+      <button onclick="yuHelp('gastos')">
+        🚨 Estou gastando demais?
+      </button>
+
+      <button onclick="yuHelp('rico')">
+        👑 Estou rico?
+      </button>
+
+      <button onclick="yuHelp('sardinhas')">
+        🐟 Quantas sardinhas meu saldo vale?
+      </button>
+
+      <button onclick="yuHelp('jogo')">
+        🎮 Posso comprar um jogo?
+      </button>
+
+      <button onclick="yuHelp('yuro')">
+        🐱 Quem é o Yuro?
+      </button>
+
+      <button onclick="yuHelp('pagamento')">
+        🎣 Qual seu pagamento?
+      </button>
+
+      <button onclick="yuHelp('trabalho')">
+        😼 Você trabalha aqui mesmo?
+      </button>
+
+      <button onclick="yuHelp('futuro')">
+        🔮 Qual meu futuro financeiro?
+      </button>
+
+    </div>
+
+    <div id="resposta-yuhelp">
+
+      😺 Como posso ajudar?
+
+    </div>
+
+    <button id="fechar-yuhelp">
+      Fechar
+    </button>
+
+  </div>
+
+</div>
+
+    <footer>
+      <p>YuroBank – tecnologia com propósito 💜</p>
+    </footer>
+<div id="toast-sucesso" class="toast-sucesso">
+
+  <div id="toast-titulo">
+    ✅ Depósito realizado!
+  </div>
+
+  <div id="toast-valor">
+    R$ 0,00 adicionados ao saldo.
+  </div>
+
+</div>
+<div id="mascote-yuro">
+
+  <div id="fala-gato"></div>
+
+  <div id="zzz">
+    Zz<span>z</span><span>z</span>
+  </div>
+
+  <img
+    id="gato-animado"
+    src="assets/mascote/gato-andando-1.png"
+    alt="Mascote Yuro"
+  >
+
+</div>
+ <div id="chuva-moedas"></div>
+ <div id="boas-vindas-yuro">
+
+  <img
+    src="assets/mascote/gato-parado-olhos-abertos.png"
+    alt="Yuro"
+    id="yuro-boas-vindas"
+  >
+
+<h2 id="texto-boas-vindas">
+  🏦 YuroBank
+</h2>
+
+<p id="saldo-boas-vindas"></p>
+
+</div>
+ <script src="js/utils.js"></script>
+<script src="js/script.js"></script>
+  </body>
+</html>

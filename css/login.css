@@ -1,0 +1,239 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+overflow:hidden;
+}
+
+#video-fundo{
+
+position:fixed;
+
+top:0;
+left:0;
+
+width:100%;
+height:100%;
+
+object-fit:cover;
+
+z-index:0;
+
+}
+
+.overlay{
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.65);
+z-index:1;
+}
+
+.login-card{
+max-width: 380px;
+width:380px;
+
+background:
+rgba(12,12,12,.85);
+
+backdrop-filter:
+blur(12px);
+
+border:
+1px solid rgba(67,160,71,.35);
+
+padding:35px;
+
+border-radius:25px;
+z-index:2;
+text-align:center;
+position:relative;
+box-shadow:
+0 0 30px rgba(0,0,0,.4);
+
+}
+
+.logo{
+width:90px;
+margin-bottom:15px;
+}
+
+h1{
+color:#d4d4d4;
+margin-bottom:10px;
+}
+
+.subtitulo{
+color:#9ca3af;
+margin-bottom:25px;
+}
+
+input{
+
+width:100%;
+
+padding:14px;
+
+margin-bottom:12px;
+
+border:none;
+
+border-radius:12px;
+
+background:#1f2937;
+
+color:white;
+
+}
+
+input:focus{
+
+outline:none;
+
+border:
+1px solid #43a047;
+
+}
+
+#btn-login{
+
+width:100%;
+
+padding:14px;
+
+border:none;
+
+border-radius:12px;
+
+cursor:pointer;
+
+background:
+linear-gradient(
+135deg,
+#2e7d32,
+#43a047
+);
+
+color:white;
+
+font-weight:bold;
+
+margin-bottom:10px;
+}
+
+#btn-login:hover{
+transform:translateY(-2px);
+}
+
+#btn-cadastro{
+
+width:100%;
+
+padding:14px;
+
+border:none;
+
+border-radius:12px;
+
+cursor:pointer;
+
+background:
+linear-gradient(
+135deg,
+#4c1d95,
+#6d28d9
+);
+
+color:white;
+
+font-weight:bold;
+}
+
+#btn-cadastro:hover{
+transform:translateY(-2px);
+}
+
+
+#mensagem{
+margin-top:15px;
+color:#fbbf24;
+}
+
+
+
+#frase-yuro-login{
+
+  text-align:center;
+
+  color:#ffffff;
+
+  max-width:350px;
+
+  margin:0 auto 20px auto;
+
+  line-height:1.5;
+
+}
+
+/* ================= CELULAR ================= */
+
+@media (max-width: 480px){
+
+  .login-card{
+    width: 92%;
+    padding: 30px 20px;
+     max-width:340px;
+    margin: 20px auto;
+  }
+
+  .logo{
+    width: 75px;
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+
+  .subtitulo{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #usuario,
+  #senha{
+    width: 100%;
+    font-size: 16px;
+  }
+
+  #btn-login,
+  #btn-cadastro{
+    width: 100%;
+    font-size: 16px;
+  }
+
+}
+
+html{
+  overflow-x:hidden;
+}
+
+body{
+  overflow-x:hidden;
+}
+
+#video-fundo{
+  position: fixed;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
