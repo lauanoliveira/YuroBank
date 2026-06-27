@@ -23,6 +23,65 @@ Além da programação, participei da criação da identidade visual do projeto 
 
 ---
 
+## 🖼️ Demonstração
+
+### 🔐 Tela de Login
+
+<img src="./assets/assets/images/login.png" width="100%">
+
+---
+
+### 🏦 Interface Principal
+
+<img src="./assets/assets/images/yurobank-interface.png" width="100%">
+
+---
+
+### 🐱 Interações do Mascote Yuro
+
+<img src="./assets/assets/images/interacoes.png" width="100%">
+
+---
+
+### 💳 Ecossistema de Cartões
+
+<table align="center">
+<tr>
+<td align="center">
+<img src="./assets/assets/images/cartao-start.png" width="180"><br><br>
+<b>Yuro Start</b><br>
+Para quem começou
+</td>
+
+<td width="60"></td>
+
+<td align="center">
+<img src="./assets/assets/images/cartao-purple.png" width="180"><br><br>
+<b>Yuro Purple</b><br>
+Para quem evolui
+</td>
+
+<td width="60"></td>
+
+<td align="center">
+<img src="./assets/assets/images/cartao-invest.png" width="180"><br><br>
+<b>Yuro Invest</b><br>
+Para quem investe
+</td>
+
+<td width="60"></td>
+
+<td align="center">
+<img src="./assets/assets/images/cartao-black.png" width="180"><br><br>
+<b>Yuro Black</b><br>
+Exclusivo
+</td>
+
+</tr>
+</table>
+
+---
+
 ## 🐱 Conheça o Yuro
 
 Yuro é o mascote oficial do projeto.
