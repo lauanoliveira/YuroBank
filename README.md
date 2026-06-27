@@ -85,7 +85,7 @@ Exclusivo
 ## 🐱 Conheça o Yuro
 
 <p align="center">
-<img src="./assets/mascote/yuro.png" width="220">
+<img src="./assets/assets/images/gato-parado-olhos-abertos.png" width="220">
 </p>
 
 Yuro é o mascote oficial do projeto.
