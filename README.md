@@ -84,9 +84,13 @@ Exclusivo
 
 ## 🐱 Conheça o Yuro
 
+<p align="center">
+<img src="./assets/mascote/yuro.png" width="220">
+</p>
+
 Yuro é o mascote oficial do projeto.
 
-Ele foi criado para trazer mais personalidade ao banco e tornar a experiência mais amigável, acompanhando o usuário durante a navegação através de animações e interações visuais.
+Criado para tornar a experiência mais próxima e amigável, ele acompanha o usuário durante a navegação e representa a identidade visual do YuroBank.
 
 ---
 
