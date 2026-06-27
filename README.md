@@ -162,6 +162,16 @@ Este projeto foi desenvolvido para praticar:
 
 ---
 
+## 🚀 Acesse o Projeto
+
+<p align="center">
+  <a href="https://lauanoliveira.github.io/YuroBank/">
+    <img src="https://img.shields.io/badge/🌐_Testar_YuroBank-8A2BE2?style=for-the-badge">
+  </a>
+</p>
+
+---
+
 ## 👨‍💻 Autor
 
 Lauan Oliveira
