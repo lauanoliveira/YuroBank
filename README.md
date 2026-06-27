@@ -129,25 +129,6 @@ Elementos criados:
 
 ---
 
-
-## 📸 Demonstração
-
-Em desenvolvimento.
-
-Em breve serão adicionadas capturas de tela da aplicação e demonstrações das funcionalidades.
-
----
-
-
-## 📊 Status do Projeto
-
-🚧 Em desenvolvimento
-
-Funcionalidades principais concluídas e novas melhorias sendo implementadas.
-
----
-
-
 ## 🎯 Objetivos de Aprendizado
 
 Este projeto foi desenvolvido para praticar:
