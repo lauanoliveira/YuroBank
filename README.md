@@ -85,12 +85,16 @@ Exclusivo
 ## 🐱 Conheça o Yuro
 
 <p align="center">
-<img src="./assets/assets/images/gato-parado-olhos-abertos.png" width="220">
+<img src="./assets/assets/images/gato-parado-olhos-abertos.png" width="180">
 </p>
 
+<p align="center">
 Yuro é o mascote oficial do projeto.
+</p>
 
-Criado para tornar a experiência mais próxima e amigável, ele acompanha o usuário durante a navegação e representa a identidade visual do YuroBank.
+<p align="center">
+Criado para trazer uma experiência mais próxima e amigável, ele acompanha o usuário durante a navegação e representa a identidade visual do YuroBank.
+</p>
 
 ---
 
