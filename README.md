@@ -1,3 +1,5 @@
+<img src="./banner yuro.png" width="100%">
+
 # 🏦 YuroBank
 
 Um banco digital fictício desenvolvido para estudos de Front-end utilizando HTML, CSS e JavaScript.
